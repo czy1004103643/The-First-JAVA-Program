@@ -1,0 +1,12 @@
+//对应Friend表，一个字段对应一个成员变量
+package ht.bean;
+
+import java.io.Serializable;
+
+public class Friend  implements Serializable{
+	
+	private int  selfAccount;		//自己的账号
+	private int  friendAccount  ;  //朋友账号
+	private String groupname ;       //所在分组（好友，家人，同事，黑名单）
+	private int  invalid ;         //是否黑名单（0=不是黑名单，1==是黑名单）
+}
