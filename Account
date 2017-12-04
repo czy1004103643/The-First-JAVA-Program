@@ -1,0 +1,20 @@
+//对应Account表，一个字段对应一个成员变量
+package ht.bean;
+
+import java.io.Serializable;
+
+public class Account implements Serializable{
+	private int qqCode;
+	private String nickName;
+	private String pwd;
+	private String ipAddre;
+	private int port;
+	private int age;
+	private int sex;
+	private int nation;
+	private int star;
+	private int face;
+	private int remark;
+	private int selfsign;
+	
+}
