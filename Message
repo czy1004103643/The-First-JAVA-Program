@@ -1,0 +1,11 @@
+//对应Message表，一个字段对应一个成员变量
+package ht.bean;
+
+import java.io.Serializable;
+
+public class Message  implements Serializable{
+	 private int selfAccount ;//--自己的账号
+	 private int friendAccount ;//    朋友的账号
+	 private int cmd;        //什么消息（命令字）
+	 private int msgcontent;//消息内容
+}
