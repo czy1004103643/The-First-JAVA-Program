@@ -1,0 +1,16 @@
+package ht;
+/*
+ * 系统中要用到的命令字，常量
+ */
+public class Cmd {
+	public static final int CMD_LOGIN=1000;//登陆（在线）
+	public static final int CMD_LOGOUT=1001;//下线（离线）
+	public static final int CMD_BUSY=1002;//忙碌
+	public static final int CMD_LEAVE=1003;//离开
+	
+	public static final int CMD_SEND=1004;//发送消息
+	public static final int CMD_DOUDONG=1005;//抖动
+	public static final int CMD_ADDFRIEND=1006;//添加好友
+	public static final int CMD_DELFRIEND=1007;//删除好友
+
+}
